@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #0073e6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    border-radius: 50%;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #0073e6;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  .dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-theme section {
+    background-color: #444;
+    color: #fff;
+  }
+
+  
+  
+
+  
+  .circles-container {
+    display: flex;
+    justify-content: center; /* Centrar los círculos horizontalmente */
+    gap: 20px; /* Espacio entre los círculos */
+    margin-top: 20px;
+  }
+  
+  .circle-section {
+    text-align: center;
+    position: relative;
+  }
+  
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: #0073e6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .circle:hover {
+    transform: scale(1.1);
+  }
+  
+  .info-box {
+    display: none;
+    background: white;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 120px; /* Justo debajo del círculo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    text-align: center;
+  }
+ 
